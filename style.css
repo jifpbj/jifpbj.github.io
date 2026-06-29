@@ -24,7 +24,10 @@
 }
 
 .project-card {
-  text-align: center;
+  margin: 1em 0;
+  background-color: darkslategrey;
+  padding: 1em;
+  border-radius: 0.5em;
 }
 
 .location {
@@ -33,7 +36,17 @@
 }
 
 .code-button {
-  background-color: purple;
+  background-color: blue;
   color: white;
-  border-radius: 2em;
+  border-radius: 0.4em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+.live-button {
+  background-color: green;
+  color: white;
+  border-radius: 0.4em;
+  padding: 0.5em 1em;
+  text-decoration: none;
 }
